@@ -15,6 +15,7 @@
 		D5DCD41A1CAAC335007A597F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DCD4181CAAC335007A597F /* LaunchScreen.storyboard */; };
 		D5DCD4251CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD4241CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardTests.m */; };
 		D5DCD4301CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD42F1CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m */; };
+		D5DCD43F1CAAD1E5007A597F /* DrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD43E1CAAD1E5007A597F /* DrawingBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D5DCD42B1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160329002-Quart2D-DrawingBoardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DCD42F1CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160329002_Quart2D_DrawingBoardUITests.m; sourceTree = "<group>"; };
 		D5DCD4311CAAC335007A597F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DCD43D1CAAD1E5007A597F /* DrawingBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardView.h; sourceTree = "<group>"; };
+		D5DCD43E1CAAD1E5007A597F /* DrawingBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D5DCD40E1CAAC335007A597F /* AppDelegate.m */,
 				D5DCD4101CAAC335007A597F /* ViewController.h */,
 				D5DCD4111CAAC335007A597F /* ViewController.m */,
+				D5DCD43D1CAAD1E5007A597F /* DrawingBoardView.h */,
+				D5DCD43E1CAAD1E5007A597F /* DrawingBoardView.m */,
 				D5DCD4131CAAC335007A597F /* Main.storyboard */,
 				D5DCD4161CAAC335007A597F /* Assets.xcassets */,
 				D5DCD4181CAAC335007A597F /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DCD43F1CAAD1E5007A597F /* DrawingBoardView.m in Sources */,
 				D5DCD4121CAAC335007A597F /* ViewController.m in Sources */,
 				D5DCD40F1CAAC335007A597F /* AppDelegate.m in Sources */,
 				D5DCD40C1CAAC335007A597F /* main.m in Sources */,
