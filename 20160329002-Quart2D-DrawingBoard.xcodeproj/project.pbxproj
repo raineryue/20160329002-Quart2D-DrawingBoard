@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DCD40C1CAAC335007A597F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD40B1CAAC335007A597F /* main.m */; };
+		D5DCD40F1CAAC335007A597F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD40E1CAAC335007A597F /* AppDelegate.m */; };
+		D5DCD4121CAAC335007A597F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD4111CAAC335007A597F /* ViewController.m */; };
+		D5DCD4151CAAC335007A597F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DCD4131CAAC335007A597F /* Main.storyboard */; };
+		D5DCD4171CAAC335007A597F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DCD4161CAAC335007A597F /* Assets.xcassets */; };
+		D5DCD41A1CAAC335007A597F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DCD4181CAAC335007A597F /* LaunchScreen.storyboard */; };
+		D5DCD4251CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD4241CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardTests.m */; };
+		D5DCD4301CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD42F1CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5DCD4211CAAC335007A597F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DCD3FF1CAAC335007A597F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DCD4061CAAC335007A597F;
+			remoteInfo = "20160329002-Quart2D-DrawingBoard";
+		};
+		D5DCD42C1CAAC335007A597F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DCD3FF1CAAC335007A597F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DCD4061CAAC335007A597F;
+			remoteInfo = "20160329002-Quart2D-DrawingBoard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5DCD4071CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160329002-Quart2D-DrawingBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DCD40B1CAAC335007A597F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5DCD40D1CAAC335007A597F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5DCD40E1CAAC335007A597F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5DCD4101CAAC335007A597F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5DCD4111CAAC335007A597F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5DCD4141CAAC335007A597F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DCD4161CAAC335007A597F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5DCD4191CAAC335007A597F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5DCD41B1CAAC335007A597F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DCD4201CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160329002-Quart2D-DrawingBoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DCD4241CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160329002_Quart2D_DrawingBoardTests.m; sourceTree = "<group>"; };
+		D5DCD4261CAAC335007A597F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DCD42B1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160329002-Quart2D-DrawingBoardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DCD42F1CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160329002_Quart2D_DrawingBoardUITests.m; sourceTree = "<group>"; };
+		D5DCD4311CAAC335007A597F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DCD4041CAAC335007A597F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DCD41D1CAAC335007A597F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DCD4281CAAC335007A597F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DCD3FE1CAAC335007A597F = {
+			isa = PBXGroup;
+			children = (
+				D5DCD4091CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard */,
+				D5DCD4231CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardTests */,
+				D5DCD42E1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests */,
+				D5DCD4081CAAC335007A597F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DCD4081CAAC335007A597F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCD4071CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard.app */,
+				D5DCD4201CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardTests.xctest */,
+				D5DCD42B1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DCD4091CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCD40D1CAAC335007A597F /* AppDelegate.h */,
+				D5DCD40E1CAAC335007A597F /* AppDelegate.m */,
+				D5DCD4101CAAC335007A597F /* ViewController.h */,
+				D5DCD4111CAAC335007A597F /* ViewController.m */,
+				D5DCD4131CAAC335007A597F /* Main.storyboard */,
+				D5DCD4161CAAC335007A597F /* Assets.xcassets */,
+				D5DCD4181CAAC335007A597F /* LaunchScreen.storyboard */,
+				D5DCD41B1CAAC335007A597F /* Info.plist */,
+				D5DCD40A1CAAC335007A597F /* Supporting Files */,
+			);
+			path = "20160329002-Quart2D-DrawingBoard";
+			sourceTree = "<group>";
+		};
+		D5DCD40A1CAAC335007A597F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCD40B1CAAC335007A597F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5DCD4231CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCD4241CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardTests.m */,
+				D5DCD4261CAAC335007A597F /* Info.plist */,
+			);
+			path = "20160329002-Quart2D-DrawingBoardTests";
+			sourceTree = "<group>";
+		};
+		D5DCD42E1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DCD42F1CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m */,
+				D5DCD4311CAAC335007A597F /* Info.plist */,
+			);
+			path = "20160329002-Quart2D-DrawingBoardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DCD4061CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DCD4341CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoard" */;
+			buildPhases = (
+				D5DCD4031CAAC335007A597F /* Sources */,
+				D5DCD4041CAAC335007A597F /* Frameworks */,
+				D5DCD4051CAAC335007A597F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160329002-Quart2D-DrawingBoard";
+			productName = "20160329002-Quart2D-DrawingBoard";
+			productReference = D5DCD4071CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DCD41F1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DCD4371CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoardTests" */;
+			buildPhases = (
+				D5DCD41C1CAAC335007A597F /* Sources */,
+				D5DCD41D1CAAC335007A597F /* Frameworks */,
+				D5DCD41E1CAAC335007A597F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DCD4221CAAC335007A597F /* PBXTargetDependency */,
+			);
+			name = "20160329002-Quart2D-DrawingBoardTests";
+			productName = "20160329002-Quart2D-DrawingBoardTests";
+			productReference = D5DCD4201CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5DCD42A1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DCD43A1CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoardUITests" */;
+			buildPhases = (
+				D5DCD4271CAAC335007A597F /* Sources */,
+				D5DCD4281CAAC335007A597F /* Frameworks */,
+				D5DCD4291CAAC335007A597F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DCD42D1CAAC335007A597F /* PBXTargetDependency */,
+			);
+			name = "20160329002-Quart2D-DrawingBoardUITests";
+			productName = "20160329002-Quart2D-DrawingBoardUITests";
+			productReference = D5DCD42B1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DCD3FF1CAAC335007A597F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D5DCD4061CAAC335007A597F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D5DCD41F1CAAC335007A597F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5DCD4061CAAC335007A597F;
+					};
+					D5DCD42A1CAAC335007A597F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5DCD4061CAAC335007A597F;
+					};
+				};
+			};
+			buildConfigurationList = D5DCD4021CAAC335007A597F /* Build configuration list for PBXProject "20160329002-Quart2D-DrawingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DCD3FE1CAAC335007A597F;
+			productRefGroup = D5DCD4081CAAC335007A597F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DCD4061CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard */,
+				D5DCD41F1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardTests */,
+				D5DCD42A1CAAC335007A597F /* 20160329002-Quart2D-DrawingBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DCD4051CAAC335007A597F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DCD41A1CAAC335007A597F /* LaunchScreen.storyboard in Resources */,
+				D5DCD4171CAAC335007A597F /* Assets.xcassets in Resources */,
+				D5DCD4151CAAC335007A597F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DCD41E1CAAC335007A597F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DCD4291CAAC335007A597F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DCD4031CAAC335007A597F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DCD4121CAAC335007A597F /* ViewController.m in Sources */,
+				D5DCD40F1CAAC335007A597F /* AppDelegate.m in Sources */,
+				D5DCD40C1CAAC335007A597F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DCD41C1CAAC335007A597F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DCD4251CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DCD4271CAAC335007A597F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DCD4301CAAC335007A597F /* _0160329002_Quart2D_DrawingBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DCD4221CAAC335007A597F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DCD4061CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard */;
+			targetProxy = D5DCD4211CAAC335007A597F /* PBXContainerItemProxy */;
+		};
+		D5DCD42D1CAAC335007A597F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DCD4061CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard */;
+			targetProxy = D5DCD42C1CAAC335007A597F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5DCD4131CAAC335007A597F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DCD4141CAAC335007A597F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DCD4181CAAC335007A597F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DCD4191CAAC335007A597F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DCD4321CAAC335007A597F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5DCD4331CAAC335007A597F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DCD4351CAAC335007A597F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160329002-Quart2D-DrawingBoard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329002-Quart2D-DrawingBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5DCD4361CAAC335007A597F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160329002-Quart2D-DrawingBoard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329002-Quart2D-DrawingBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5DCD4381CAAC335007A597F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160329002-Quart2D-DrawingBoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329002-Quart2D-DrawingBoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160329002-Quart2D-DrawingBoard.app/20160329002-Quart2D-DrawingBoard";
+			};
+			name = Debug;
+		};
+		D5DCD4391CAAC335007A597F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160329002-Quart2D-DrawingBoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329002-Quart2D-DrawingBoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160329002-Quart2D-DrawingBoard.app/20160329002-Quart2D-DrawingBoard";
+			};
+			name = Release;
+		};
+		D5DCD43B1CAAC335007A597F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160329002-Quart2D-DrawingBoardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329002-Quart2D-DrawingBoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160329002-Quart2D-DrawingBoard";
+			};
+			name = Debug;
+		};
+		D5DCD43C1CAAC335007A597F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160329002-Quart2D-DrawingBoardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160329002-Quart2D-DrawingBoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160329002-Quart2D-DrawingBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DCD4021CAAC335007A597F /* Build configuration list for PBXProject "20160329002-Quart2D-DrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DCD4321CAAC335007A597F /* Debug */,
+				D5DCD4331CAAC335007A597F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DCD4341CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DCD4351CAAC335007A597F /* Debug */,
+				D5DCD4361CAAC335007A597F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5DCD4371CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DCD4381CAAC335007A597F /* Debug */,
+				D5DCD4391CAAC335007A597F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5DCD43A1CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DCD43B1CAAC335007A597F /* Debug */,
+				D5DCD43C1CAAC335007A597F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DCD3FF1CAAC335007A597F /* Project object */;
+}

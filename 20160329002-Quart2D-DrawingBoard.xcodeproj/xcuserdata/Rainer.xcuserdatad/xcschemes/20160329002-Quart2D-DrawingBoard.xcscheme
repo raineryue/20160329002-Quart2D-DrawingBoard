@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5DCD4061CAAC335007A597F"
+               BuildableName = "20160329002-Quart2D-DrawingBoard.app"
+               BlueprintName = "20160329002-Quart2D-DrawingBoard"
+               ReferencedContainer = "container:20160329002-Quart2D-DrawingBoard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5DCD41F1CAAC335007A597F"
+               BuildableName = "20160329002-Quart2D-DrawingBoardTests.xctest"
+               BlueprintName = "20160329002-Quart2D-DrawingBoardTests"
+               ReferencedContainer = "container:20160329002-Quart2D-DrawingBoard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5DCD42A1CAAC335007A597F"
+               BuildableName = "20160329002-Quart2D-DrawingBoardUITests.xctest"
+               BlueprintName = "20160329002-Quart2D-DrawingBoardUITests"
+               ReferencedContainer = "container:20160329002-Quart2D-DrawingBoard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5DCD4061CAAC335007A597F"
+            BuildableName = "20160329002-Quart2D-DrawingBoard.app"
+            BlueprintName = "20160329002-Quart2D-DrawingBoard"
+            ReferencedContainer = "container:20160329002-Quart2D-DrawingBoard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5DCD4061CAAC335007A597F"
+            BuildableName = "20160329002-Quart2D-DrawingBoard.app"
+            BlueprintName = "20160329002-Quart2D-DrawingBoard"
+            ReferencedContainer = "container:20160329002-Quart2D-DrawingBoard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5DCD4061CAAC335007A597F"
+            BuildableName = "20160329002-Quart2D-DrawingBoard.app"
+            BlueprintName = "20160329002-Quart2D-DrawingBoard"
+            ReferencedContainer = "container:20160329002-Quart2D-DrawingBoard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
