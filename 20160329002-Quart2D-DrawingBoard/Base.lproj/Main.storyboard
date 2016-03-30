@@ -24,12 +24,32 @@
                                     <constraint firstAttribute="height" constant="44" id="gbd-E9-Tex"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="清屏" id="DQh-kD-aTz"/>
-                                    <barButtonItem title="撤销" id="XLG-As-MhT"/>
-                                    <barButtonItem title="橡皮擦" id="YJk-Gj-jnW"/>
-                                    <barButtonItem title="照片" id="sjV-XF-peZ"/>
+                                    <barButtonItem tag="1" title="清屏" id="DQh-kD-aTz">
+                                        <connections>
+                                            <action selector="toolBarButtonItemClickAction:" destination="BYZ-38-t0r" id="Ehk-z6-R0G"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="2" title="撤销" id="XLG-As-MhT">
+                                        <connections>
+                                            <action selector="toolBarButtonItemClickAction:" destination="BYZ-38-t0r" id="1RT-Xa-hPg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="3" title="橡皮擦" id="YJk-Gj-jnW">
+                                        <connections>
+                                            <action selector="toolBarButtonItemClickAction:" destination="BYZ-38-t0r" id="Iki-O6-lIa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="4" title="照片" id="sjV-XF-peZ">
+                                        <connections>
+                                            <action selector="toolBarButtonItemClickAction:" destination="BYZ-38-t0r" id="vvv-Bl-lKe"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Npu-v2-fiS"/>
-                                    <barButtonItem title="保存" id="qd9-8b-kfy"/>
+                                    <barButtonItem tag="10" title="保存" id="qd9-8b-kfy">
+                                        <connections>
+                                            <action selector="toolBarButtonItemClickAction:" destination="BYZ-38-t0r" id="zNP-wN-KWJ"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JAa-aV-fCb">
@@ -44,20 +64,32 @@
                                         <state key="normal">
                                             <color key="titleColor" red="1" green="0.1510965866" blue="0.26283447180000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="lineColorButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3c-f8-5bP"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhL-qT-91o" userLabel="蓝色">
                                         <rect key="frame" x="225" y="30" width="82.5" height="30"/>
                                         <color key="backgroundColor" red="0.1195297214" green="0.2621667426" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="lineColorButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ad-75-w6o"/>
+                                        </connections>
                                     </button>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CIX-Rc-nMg">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="CIX-Rc-nMg">
                                         <rect key="frame" x="18" y="0.0" width="292" height="31"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="72Y-0W-f7v"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="lineWeithSliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="MxA-Z1-c40"/>
+                                        </connections>
                                     </slider>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCQ-zM-bBl" userLabel="绿色">
                                         <rect key="frame" x="122" y="30" width="83" height="30"/>
                                         <color key="backgroundColor" red="0.3513975084" green="1" blue="0.039026373009999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="lineColorButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cbG-2T-Guk"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.61288329210000003" blue="0.44272495540000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -83,7 +115,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J7h-1T-5Yb" customClass="DrawingBoardView">
                                 <rect key="frame" x="-4" y="64" width="328" height="424"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -100,6 +132,9 @@
                             <constraint firstItem="JAa-aV-fCb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="uDs-bz-72m"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="drawingBoardView" destination="J7h-1T-5Yb" id="rSP-2C-Cb4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

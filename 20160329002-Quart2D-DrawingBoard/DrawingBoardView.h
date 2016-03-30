@@ -10,4 +10,11 @@
 
 @interface DrawingBoardView : UIView
 
+@property (nonatomic, assign) CGFloat lineWidth;
+@property (nonatomic, strong) UIColor *lineColor;
+@property (nonatomic, strong) UIImage *image;
+
+- (void)cleanScreen;
+- (void)cancleSomething;
+
 @end

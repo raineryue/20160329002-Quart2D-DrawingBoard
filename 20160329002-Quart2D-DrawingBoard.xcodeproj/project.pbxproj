@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D502C7FE1CAC203F007FEB25 /* ImageHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D502C7FD1CAC203F007FEB25 /* ImageHandleView.m */; };
+		D5C89D021CAB752A00AD25EB /* DrawBoardBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C89D011CAB752A00AD25EB /* DrawBoardBezierPath.m */; };
+		D5C89D121CABA8F000AD25EB /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C89D0E1CABA8F000AD25EB /* MBProgressHUD+XMG.m */; };
+		D5C89D131CABA8F000AD25EB /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5C89D0F1CABA8F000AD25EB /* MBProgressHUD.bundle */; };
+		D5C89D141CABA8F000AD25EB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C89D111CABA8F000AD25EB /* MBProgressHUD.m */; };
 		D5DCD40C1CAAC335007A597F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD40B1CAAC335007A597F /* main.m */; };
 		D5DCD40F1CAAC335007A597F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD40E1CAAC335007A597F /* AppDelegate.m */; };
 		D5DCD4121CAAC335007A597F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DCD4111CAAC335007A597F /* ViewController.m */; };
@@ -36,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D502C7FC1CAC203F007FEB25 /* ImageHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHandleView.h; sourceTree = "<group>"; };
+		D502C7FD1CAC203F007FEB25 /* ImageHandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHandleView.m; sourceTree = "<group>"; };
+		D5C89D001CAB752A00AD25EB /* DrawBoardBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBoardBezierPath.h; sourceTree = "<group>"; };
+		D5C89D011CAB752A00AD25EB /* DrawBoardBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBoardBezierPath.m; sourceTree = "<group>"; };
+		D5C89D0D1CABA8F000AD25EB /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		D5C89D0E1CABA8F000AD25EB /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		D5C89D0F1CABA8F000AD25EB /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		D5C89D101CABA8F000AD25EB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D5C89D111CABA8F000AD25EB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		D5DCD4071CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160329002-Quart2D-DrawingBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DCD40B1CAAC335007A597F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5DCD40D1CAAC335007A597F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +95,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5C89D0C1CABA8F000AD25EB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D5C89D0D1CABA8F000AD25EB /* MBProgressHUD+XMG.h */,
+				D5C89D0E1CABA8F000AD25EB /* MBProgressHUD+XMG.m */,
+				D5C89D0F1CABA8F000AD25EB /* MBProgressHUD.bundle */,
+				D5C89D101CABA8F000AD25EB /* MBProgressHUD.h */,
+				D5C89D111CABA8F000AD25EB /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		D5DCD3FE1CAAC335007A597F = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +130,17 @@
 		D5DCD4091CAAC335007A597F /* 20160329002-Quart2D-DrawingBoard */ = {
 			isa = PBXGroup;
 			children = (
+				D5C89D0C1CABA8F000AD25EB /* MBProgressHUD */,
 				D5DCD40D1CAAC335007A597F /* AppDelegate.h */,
 				D5DCD40E1CAAC335007A597F /* AppDelegate.m */,
 				D5DCD4101CAAC335007A597F /* ViewController.h */,
 				D5DCD4111CAAC335007A597F /* ViewController.m */,
 				D5DCD43D1CAAD1E5007A597F /* DrawingBoardView.h */,
 				D5DCD43E1CAAD1E5007A597F /* DrawingBoardView.m */,
+				D5C89D001CAB752A00AD25EB /* DrawBoardBezierPath.h */,
+				D5C89D011CAB752A00AD25EB /* DrawBoardBezierPath.m */,
+				D502C7FC1CAC203F007FEB25 /* ImageHandleView.h */,
+				D502C7FD1CAC203F007FEB25 /* ImageHandleView.m */,
 				D5DCD4131CAAC335007A597F /* Main.storyboard */,
 				D5DCD4161CAAC335007A597F /* Assets.xcassets */,
 				D5DCD4181CAAC335007A597F /* LaunchScreen.storyboard */,
@@ -249,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5DCD41A1CAAC335007A597F /* LaunchScreen.storyboard in Resources */,
+				D5C89D131CABA8F000AD25EB /* MBProgressHUD.bundle in Resources */,
 				D5DCD4171CAAC335007A597F /* Assets.xcassets in Resources */,
 				D5DCD4151CAAC335007A597F /* Main.storyboard in Resources */,
 			);
@@ -277,8 +309,12 @@
 			files = (
 				D5DCD43F1CAAD1E5007A597F /* DrawingBoardView.m in Sources */,
 				D5DCD4121CAAC335007A597F /* ViewController.m in Sources */,
+				D5C89D021CAB752A00AD25EB /* DrawBoardBezierPath.m in Sources */,
 				D5DCD40F1CAAC335007A597F /* AppDelegate.m in Sources */,
+				D5C89D121CABA8F000AD25EB /* MBProgressHUD+XMG.m in Sources */,
 				D5DCD40C1CAAC335007A597F /* main.m in Sources */,
+				D502C7FE1CAC203F007FEB25 /* ImageHandleView.m in Sources */,
+				D5C89D141CABA8F000AD25EB /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +538,7 @@
 				D5DCD4361CAAC335007A597F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5DCD4371CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +547,7 @@
 				D5DCD4391CAAC335007A597F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5DCD43A1CAAC335007A597F /* Build configuration list for PBXNativeTarget "20160329002-Quart2D-DrawingBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +556,7 @@
 				D5DCD43C1CAAC335007A597F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
